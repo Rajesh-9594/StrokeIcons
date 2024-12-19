@@ -1,0 +1,186 @@
+body {
+  font-family: Knowledge2017,Helvetica Neue,Arial,sans-serif;
+    margin: 0px;
+    /* font-family: cursive; */
+    padding: 0px;
+  }
+
+  h1 {
+    color: #FA6400;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 600;
+    /* text-align: center; */
+    margin: 0px;
+}
+
+a{
+  text-decoration: none;
+}
+  
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+#success-message{
+color: #007f2e;
+font-size: 17px;
+}
+
+#error-message{
+  color: #ff0000;
+  font-size: 17px;
+  }
+
+  .main-title{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px;
+    padding: 15px 10px;
+  }
+
+  .main-title h1{
+    text-align: center;
+    margin: 0px;
+    color: #FA6400;
+    
+    font-size: 45px;
+    text-transform: capitalize;
+    font-weight: 400;
+
+  }
+
+  .form-main-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 25px;
+    align-items: center;
+    /* border-radius: 10px; */
+    /* box-shadow: inset rgba(0, 0, 0, 0.1) 0px 2px 5px; */
+  }
+
+  .forms-container{
+    padding: 50px 20px;
+    /* display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 20px; */
+    /* grid-row-gap: 25px; */
+    /* border-radius: 0px; */
+    align-items: baseline;
+    box-shadow: 0 20px 60px 0 rgba(153,53,0,0.1215686275);
+  }
+
+  .image-container{
+    background-color: #fff;
+    padding: 30px 50px;
+    /* display: flex;
+    align-items: center; */
+    /* box-shadow: inset rgba(0, 0, 0, 0.1) 0px 2px 5px; */
+  }
+
+  .fl-footer {
+    background-color: #FA6400;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+.fl-footer p{
+  color: #fff;
+  margin: 0px;
+}
+
+#loginFormContainer h2{
+  font-size: 32px;
+  color: #FA6400;
+  /* background-color: #ffffff; */
+  border-color: #404040;
+  /* padding: 10px 20px; */
+  margin: 0px;
+  font-weight: 500;
+  /* text-align: center; */
+  margin-bottom: 0px;
+}
+
+#loginForm{
+    border-radius: 0px;
+    padding: 20px;
+    border: 1px dashed #FA6400;
+    color: #444;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    transition: .2s ease-in-out, border .2s ease-in-out;
+}
+
+button {
+  border-radius: 50px;
+  background-color: #FA6400;
+  margin: 10px 0px;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: cursive;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+
+button:hover {
+  background-color: #404040;
+  color: #fff;
+  transition: 0.3s;
+}
+
+
+.image-container img{
+  /* margin: 0 auto; */
+  width: 80%;
+  padding-top: 50px;
+  display: table;
+}
+
+
+.image-container p{
+  font-size: 17px;
+}
+
+@media(max-width:800px){
+  .form-main-container{
+    grid-template-columns: 1fr;
+  }
+
+  .forms-container{
+    padding: 30px 50px !important;
+  }
+
+  h1{
+    font-size: 38px;
+  }
+  h2{
+    font-size: 30px !important;
+  }
+}

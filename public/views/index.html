@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <title>Login</title>
+</head>
+
+<body>
+
+    <div class="form-main-container">
+
+        <div class="image-container">
+            <h1>Icons Customizer</h1>
+
+            <p>The Icons Customizer is a user-friendly application that allows customization of PA icons.By using this
+                application users can easily change the size, color, and style of icons to better suit their preferences
+                and needs.</p>
+
+            <img src="./images/AdobeStock_518113900-icon.svg">
+        </div>
+
+        <div class="forms-container">
+
+            <div id="loginFormContainer">
+                <h2>Login</h2>
+                <form id="loginForm">
+                    <label for="username">Email:</label>
+                    <input type="email" id="username" name="username" required>
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+
+            <p id="success-message"></p>
+            <p id="error-message"></p>
+        </div>
+
+    </div>
+
+    <div class="fl-footer">
+        <p>© 2024 Icons Customizer</p>
+    </div>
+    <script src="../controllers/login.js"></script>
+</body>
+
+</html>
